@@ -25,7 +25,7 @@
     function startWatch() {
 
         // Update compass every 0.5 seconds
-        var options = { frequency: 50 };
+        var options = { frequency: 20 };
 
     	watchID = navigator.compass.watchHeading(onSuccess, onError, options);
     }
